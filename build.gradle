@@ -63,6 +63,10 @@ minecraft {
 }
 
 sourceSets.main.resources { srcDir "src/generated/resources" }
+// TODO fix this mess
+sourceSets.main.java { srcDir "GlTF-Parser/src/main/java" }
+sourceSets.main.java { srcDir "GlTF-Parser/build/generated-sources/glTF" }
+
 
 repositories {
 }

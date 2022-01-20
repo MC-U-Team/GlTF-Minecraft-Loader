@@ -1,0 +1,3 @@
+[submodule "GlTF-Parser"]
+	path = GlTF-Parser
+	url = https://github.com/MC-U-Team/GlTF-Parser
