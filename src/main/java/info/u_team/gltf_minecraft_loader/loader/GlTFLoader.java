@@ -6,6 +6,7 @@ import java.util.Map;
 import com.google.gson.JsonDeserializationContext;
 import com.google.gson.JsonObject;
 
+import info.u_team.gltf_minecraft_loader.GlTFMinecraftLoaderMod;
 import net.minecraft.client.Minecraft;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.packs.resources.Resource;
@@ -15,6 +16,7 @@ import net.minecraftforge.client.model.IModelLoader;
 public class GlTFLoader implements IModelLoader<GlTFModel> {
 	
 	public static final GlTFLoader INSTANCE = new GlTFLoader();
+	public static final ResourceLocation TYPE = new ResourceLocation(GlTFMinecraftLoaderMod.MODID, "gltf");
 	
 	private ResourceManager resourceManager;
 	private final Map<GlTFModelSettings, GlTFModel> modelCache = new HashMap<>();
