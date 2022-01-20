@@ -1,3 +1,3 @@
 {
-	"loader": "gltfminecraftloader:gltf"
+	"loader": "gltfloader:gltf"
 }

@@ -4,7 +4,7 @@ issueTrackerURL="https://github.com/MC-U-Team/GlTF-Minecraft-Loader/issues"
 license="Apache-2.0 License"
 
 [[mods]]
-	modId="gltfminecraftloader"
+	modId="gltfloader"
 	version="${file.jarVersion}"
 	displayName="GlTF Minecraft Loader"
 	displayURL="https://github.com/MC-U-Team/GlTF-Minecraft-Loader"
