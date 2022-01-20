@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[39,)"
+issueTrackerURL="https://github.com/MC-U-Team/GlTF-Minecraft-Loader/issues"
+license="Apache-2.0 License"
+
+[[mods]]
+	modId="gltfminecraftloader"
+	version="${file.jarVersion}"
+	displayName="GlTF Minecraft Loader"
+	displayURL="https://github.com/MC-U-Team/GlTF-Minecraft-Loader"
+	logoFile="logo.png"
+	credits="Team U-Team"
+	authors="HyCraftHD, MrTroble"
+	description=""
+	
+	[[dependencies.gltfminecraftloader]]
+	    modId="forge"
+	    mandatory=true
+	    versionRange="[39.0.45,)"
+	    ordering="NONE"
+	    side="BOTH"
+	
+	[[dependencies.gltfminecraftloader]]
+	    modId="minecraft"
+	    mandatory=true
+	    versionRange="[1.18.1]"
+	    ordering="NONE"
+	    side="BOTH"
