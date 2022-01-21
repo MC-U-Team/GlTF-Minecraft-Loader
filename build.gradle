@@ -73,6 +73,7 @@ repositories {
 
 dependencies {
 	minecraft "net.minecraftforge:forge:1.18.1-39.0.45"
+	implementation 'org.junit.jupiter:junit-jupiter:5.8.2'
 }
 
 jar {
